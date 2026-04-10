@@ -1,0 +1,6 @@
+Id,Nombre,Descripcion,Tipo,Prioridad
+101,Cafe,Hacer un cafe por la mañana,Ocio,False
+102,Pizza,Preparar los ingredientes de la pizza,Ocio,True
+103,Limpiar,Limpiar mi habitación,Ocio,False
+104,Recoger,Recoger la cocina,Ocio,True
+105,Imprimir,Imprimir los tests de IPE,Ocio,False

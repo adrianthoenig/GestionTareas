@@ -1,0 +1,14 @@
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/bin/Debug/net10.0/GestionTareas
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/bin/Debug/net10.0/GestionTareas.deps.json
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/bin/Debug/net10.0/GestionTareas.runtimeconfig.json
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/bin/Debug/net10.0/GestionTareas.dll
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/bin/Debug/net10.0/GestionTareas.pdb
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/obj/Debug/net10.0/GestionTareas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/obj/Debug/net10.0/GestionTareas.AssemblyInfoInputs.cache
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/obj/Debug/net10.0/GestionTareas.AssemblyInfo.cs
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/obj/Debug/net10.0/GestionTareas.csproj.CoreCompileInputs.cache
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/obj/Debug/net10.0/GestionTareas.dll
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/obj/Debug/net10.0/refint/GestionTareas.dll
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/obj/Debug/net10.0/GestionTareas.pdb
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/obj/Debug/net10.0/GestionTareas.genruntimeconfig.cache
+/Users/adrianthoenig/Documents/DAW/Evaluables/tercer_trimestre/GestionTareas/obj/Debug/net10.0/ref/GestionTareas.dll
