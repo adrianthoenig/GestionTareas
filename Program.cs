@@ -13,19 +13,6 @@ public class Programa
         // Lista de tareas utilizada en el programa
         List<Tarea> listaTareas = new List<Tarea>();
 
-        // DEBUG: Tareas para hacer testing
-        Tarea t1 = new Tarea("Cafe", "Hacer un cafe por la mañana", TipoTarea.Ocio, false);
-        Tarea t2 = new Tarea("Pizza", "Preparar los ingredientes de la pizza", TipoTarea.Ocio, true);
-        Tarea t3 = new Tarea("Limpiar", "Limpiar mi habitación", TipoTarea.Ocio, false);
-        Tarea t4 = new Tarea("Recoger", "Recoger la cocina", TipoTarea.Ocio, true);
-        Tarea t5 = new Tarea("Imprimir", "Imprimir los tests de IPE", TipoTarea.Ocio, false);
-
-        listaTareas.Add(t1);
-        listaTareas.Add(t2);
-        listaTareas.Add(t3);
-        listaTareas.Add(t4);
-        listaTareas.Add(t5);
-
 
         // Inicio del bucle para el menú
         int op;
@@ -418,18 +405,34 @@ public class Programa
         Console.Clear();
         ImprimirTitulo("importar tarea");
 
+        // Confirmar
+        Console.WriteLine("[ ! ] ATENCIÓN: Se borraran todas las tareas existentes");
+        Console.Write("¿Estas seguro de que quieres importar las tareas (SI/NO)?: ");
+        string conf = Console.ReadLine();
+
+        // Descartarlo
+        if(conf.Trim().ToUpper() != "SI")
+        {
+            Console.WriteLine("\nCancelando operación...");
+            TeclaContinuar();
+            return;
+        }
+
+        // Vaciar la lista actual)
+        ImprimirTitulo("importar tarea");
+
         // Configurando directorio
         string path = "logs";
         string ruta = Path.Combine(path, "tareas.csv");
 
-        // Comprobar que el archivo exista
         if(!File.Exists(ruta))
         {
-            // No existe el archivo
             MensajeError("No existe el archivo tareas.csv en la carpeta logs");
             TeclaContinuar();
-            return; // terminar el método
+            return;
         }
+
+        listaTareas.Clear();
 
         // Intentar importar el archivo csv
         try
@@ -469,6 +472,7 @@ public class Programa
                 }
 
                 // Columnas
+                int id = int.Parse(partes[0].Trim());
                 string nombre = partes[1].Trim();
                 string desc = partes[2].Trim();
                 string tipoTexto = partes[3].Trim();
@@ -495,7 +499,7 @@ public class Programa
                 }
 
                 // Crear tarea nueva
-                Tarea tareaNueva = new Tarea(nombre, desc, tipo, prioridad);
+                Tarea tareaNueva = new Tarea(id, nombre, desc, tipo, prioridad);
                 listaTareas.Add(tareaNueva); // añadir la tarea a la lista
                 importadas++; // incrementar el contador
             }
