@@ -1,6 +1,4 @@
 Id,Nombre,Descripcion,Tipo,Prioridad
-101,Cafe,Hacer un cafe por la mañana,Ocio,False
-102,Pizza,Preparar los ingredientes de la pizza,Ocio,True
-103,Limpiar,Limpiar mi habitación,Ocio,False
-104,Recoger,Recoger la cocina,Ocio,True
-105,Imprimir,Imprimir los tests de IPE,Ocio,False
+101,Evaluable,Presentar evaluable a Borja,Trabajo,True
+102,Prog,Empezar evaluable de Programacion despues de este,Trabajo,False
+103,Pizza,Preparar una pizza cuando acabe examenes,Persona,True

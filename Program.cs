@@ -432,6 +432,7 @@ public class Programa
             return;
         }
 
+        // Vaciar la lista de tareas
         listaTareas.Clear();
 
         // Intentar importar el archivo csv
