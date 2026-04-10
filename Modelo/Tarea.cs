@@ -73,6 +73,18 @@ public class Tarea
         Prioridad = prioridad;
     }
 
+     // constructor full args (CON ID)
+    public Tarea(int id, string nombre, string desc, TipoTarea tipo, bool prioridad)
+    : this(nombre, desc, tipo, prioridad)
+{
+    Id = id;
+
+    if (id >= _id)
+    {
+        _id = id + 1;
+    }
+}
+
     /*** MÉTODOS ***/
     
     // MostrarDatos: muestra los datos de la tarea
